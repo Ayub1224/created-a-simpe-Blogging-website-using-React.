@@ -1,0 +1,2 @@
+1: npx json-server --watch database/db.json --port 8000
+// this code is for running database in a saperate content

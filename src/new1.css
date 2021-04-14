@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(128, 128, 128, 0.301);
+}
+
+/* ****************navbaarr */
+.navbar {
+    display: flex;
+    margin: 5px 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    margin: 10px 20px;
+    color: #333030b2
+}
+ul {
+    /* position: relative; */
+    display: flex;
+}
+.elem{
+    right: 40px;
+    position: relative;
+
+}
+.a{
+    margin: 5px 10px;
+    background: #f2f2f2;
+    color: #f1356d;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+ul li{
+    position: relative;
+    list-style: none;
+}
+.a:hover{
+    color: #f2f2f2;
+    background:rgba(231, 54, 54, 0.548) ;
+}
+.blog-preview{
+	padding: 10px 16px;
+	margin: 20px 0px;
+	border-bottom: 1px solid #fafafa;
+}
+.blog-preview :hover{
+	box-shadow: 1px 3px 5px rgba(0, 0, 0, .1);
+}
+.blog-preview h2{
+	font-size: 20px;
+	color: #f1356d;
+	margin-bottom: 8px;
+}
+.blog-preview p{
+	color: rgba(41, 39, 39, 0.726);
+	margin:20px 20px ;
+}
+.container{
+	width: 980px;
+	margin:0px auto;
+}
+.btn{
+	width: 100px;
+	color:white;
+	background:#333030b2;
+	border-radius: 8px;
+}
+.blog-preview h2{
+text-decoration: none;
+}
+/* *******************create css*************************/
+.Create {
+    width: 600px;
+    height: 100%;
+    margin: 40px auto;
+    border: 2px solid #f1356d;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 7px;
+}
+.Create label {
+    text-align: left;
+    display: block;
+    color: rgba(41, 39, 39, 0.726);
+}
+.Create h2{
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 30px;
+}
+.Create input , .Create textarea, .Create select{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+.Create button,.Blog-details button {
+    background: #f1356d;
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+/**********************************details blog********************************************* */
+.Blog-details{
+    width: 900px;
+    margin: 40px auto;
+    border: 2px solid #f1356d;
+    border-radius: 8px;
+}
+.Blog-details p,.Blog-details button{
+    margin: 10px 15px;
+    padding: 10px 10px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+/* footer****************** */
+footer{
+    width: 100%;
+    /* position: absolute; */
+    height: 100%;
+    bottom: 0;
+    height: 100px;
+    align-items: center;
+    color: #fff;
+    background:crimson;
+    /* position: sticky; */
+    font-family:'Times New Roman', Times, serif
+}
+.footcont{
+    margin: 20px auto;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footcont p{
+color: #ddd;
+font-family:Georgia, 'Times New Roman', Times, serif;
+margin: 0px auto;
+}
